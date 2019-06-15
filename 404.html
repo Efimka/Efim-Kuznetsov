@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>My Docs</title>
+        <title>Лаба</title>
         <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="/css/font-awesome.min.css" rel="stylesheet">
         <link href="/css/base.css" rel="stylesheet">
@@ -32,11 +32,44 @@
 
                 <!-- Collapsed navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/.">My Docs</a>
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/.">Лаба</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="/task/">Полезные ресурсы ЮГУ</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Полезные советы <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="/task3/part1.md">Совет 1</a>
+</li>
+                                    
+<li >
+    <a href="/task3/part2.md">Совет 2</a>
+</li>
+                                    
+<li >
+    <a href="/task3/part3.md">Совет 3</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="/task4/">Ресурсы студенческого сообщества</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
